@@ -1,6 +1,6 @@
 # A simple To-do List made with React+Vite
 
-Visit app at (zbcirit.github.io/react-simple-todo)[https://zbcirit.github.io/react-simple-todo]
+Visit app at [zbcirit.github.io/react-simple-todo](https://zbcirit.github.io/react-simple-todo)
 
 The app showcases
 
