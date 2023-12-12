@@ -1,0 +1,115 @@
+:root {
+  --main-bg-color: #f2e5bd;
+  --secondary-bg-color: #f8ddb8;
+  --main-font-color: #554979;
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+}
+
+body {
+  width: 90vw;
+  margin: 0 auto;
+  background: rgb(142, 8, 175);
+  background: linear-gradient(
+    90deg,
+    rgba(143, 15, 175, 0.9) 24%,
+    rgba(8, 11, 139, 0.9) 100%
+  );
+}
+
+ul {
+  list-style-type: none;
+}
+
+.todo--container {
+  margin-top: 5rem;
+  background-color: rgba(210, 212, 227, 0.5);
+  color: #333;
+  padding: 1.5rem;
+  border-radius: 0.5rem;
+  min-height: 50vh;
+}
+
+.form {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  /* gap: 1rem; */
+  justify-content: left;
+  align-items: center;
+}
+.form--title {
+  font-size: 1.75rem;
+}
+.form--label {
+  margin-right: 0.5rem;
+  cursor: pointer;
+  /* background-color: rgba(255, 255, 255, 0.5); */
+}
+.form--input {
+  border: none;
+  border-radius: 0.5rem;
+  flex-grow: 1;
+  padding: 0.1rem 0.5rem 0.1rem 0.5rem;
+}
+
+.btn {
+  background: none;
+  color: inherit;
+  border: none;
+
+  padding-top: 0;
+  font: inherit;
+  cursor: pointer;
+  outline: inherit;
+}
+.btn span {
+  display: inline-block;
+  vertical-align: middle;
+}
+
+.btn--submit {
+  border-radius: 0.5rem;
+  background-color: rgba(255, 255, 255, 0.5);
+  margin-left: 0.5rem;
+  padding: 0.25rem;
+}
+
+.btn--remove {
+  margin-left: 0.5rem;
+}
+
+.strike {
+  text-decoration: line-through;
+}
+.list--title {
+  margin-top: 2rem;
+  font-size: 1.75rem;
+}
+.list--input {
+  margin-right: 1rem;
+}
+
+.list--item {
+  padding: 0.25rem;
+}
+
+@media (max-width: 480px) {
+  body {
+    width: 100vw;
+  }
+}
+@media (max-width: 768px) {
+  body {
+    width: 90vw;
+  }
+}
+@media (min-width: 1024px) {
+  body {
+    width: 1024px;
+  }
+}
